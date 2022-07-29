@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-29T07:19:33Z" name="Suite" finished-at="2022-07-29T07:21:31Z" duration-ms="118029">
+    <groups>
+    </groups>
+    <test started-at="2022-07-29T07:19:33Z" name="Test" finished-at="2022-07-29T07:21:31Z" duration-ms="118029">
+      <class name="test.TestNGWiki">
+        <test-method is-config="true" signature="pom()[pri:0, instance:test.TestNGWiki@56c4278e]" started-at="2022-07-29T07:19:53Z" name="pom" finished-at="2022-07-29T07:19:54Z" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pom -->
+        <test-method is-config="true" signature="strtImdb()[pri:0, instance:test.TestNGWiki@56c4278e]" started-at="2022-07-29T07:19:54Z" name="strtImdb" finished-at="2022-07-29T07:20:02Z" duration-ms="8216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strtImdb -->
+        <test-method signature="Test()[pri:0, instance:test.TestNGWiki@56c4278e]" started-at="2022-07-29T07:20:02Z" name="Test" finished-at="2022-07-29T07:20:18Z" duration-ms="15460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:test.TestNGWiki@56c4278e]" started-at="2022-07-29T07:20:18Z" name="closePage" finished-at="2022-07-29T07:20:22Z" duration-ms="4264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:test.TestNGWiki@56c4278e]" started-at="2022-07-29T07:20:22Z" name="clearObject" finished-at="2022-07-29T07:20:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+      </class> <!-- test.TestNGWiki -->
+      <class name="test.TestNGImdb">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.TestNGImdb@301eda63]" started-at="2022-07-29T07:19:33Z" name="launchBrowser" finished-at="2022-07-29T07:19:47Z" duration-ms="14071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:test.TestNGWiki@56c4278e]" started-at="2022-07-29T07:19:47Z" name="launchBrowser" finished-at="2022-07-29T07:19:53Z" duration-ms="6702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="pom()[pri:0, instance:test.TestNGImdb@301eda63]" started-at="2022-07-29T07:20:22Z" name="pom" finished-at="2022-07-29T07:20:22Z" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pom -->
+        <test-method is-config="true" signature="strtImdb()[pri:0, instance:test.TestNGImdb@301eda63]" started-at="2022-07-29T07:20:22Z" name="strtImdb" finished-at="2022-07-29T07:20:30Z" duration-ms="7931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- strtImdb -->
+        <test-method signature="Test()[pri:0, instance:test.TestNGImdb@301eda63]" started-at="2022-07-29T07:20:30Z" name="Test" finished-at="2022-07-29T07:21:26Z" duration-ms="55776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:test.TestNGImdb@301eda63]" started-at="2022-07-29T07:21:26Z" name="closePage" finished-at="2022-07-29T07:21:30Z" duration-ms="4238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:test.TestNGImdb@301eda63]" started-at="2022-07-29T07:21:30Z" name="clearObject" finished-at="2022-07-29T07:21:30Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TestNGImdb@301eda63]" started-at="2022-07-29T07:21:30Z" name="closeBrowser" finished-at="2022-07-29T07:21:31Z" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.TestNGWiki@56c4278e]" started-at="2022-07-29T07:21:31Z" name="closeBrowser" finished-at="2022-07-29T07:21:31Z" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.TestNGImdb -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
