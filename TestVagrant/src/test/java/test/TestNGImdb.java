@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import pom.Imdb;
 
@@ -35,6 +36,15 @@ public class TestNGImdb {
 		System.out.println("before method");
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
+		
+		String url = driver.getCurrentUrl();
+		String expectedurl= "https://www.google.com/";
+		boolean ispresent = url.contains(expectedurl);
+		SoftAssert sa = new SoftAssert();
+		sa.assertTrue(ispresent, "Test Case Is Passed");
+		System.out.println("Passed");
+		sa.assertAll();
+		
 	}
 	
 	@Test
@@ -43,6 +53,14 @@ public class TestNGImdb {
 		imdb.imdb();
 		imdb.src();
 		imdb.ent();
+		
+		String title = driver.getTitle();
+		String expectedtitle= "Pushpa: The Rise - Part 1 (2021)";
+		boolean ispresent = title.contains(expectedtitle);
+		SoftAssert sa = new SoftAssert();
+		sa.assertTrue(ispresent, "Test Case Is Passed");
+		System.out.println("Passed");
+		sa.assertAll();
 		imdb.releaseDate();
 	
 		Thread.sleep(3000);
